@@ -1,0 +1,33 @@
+name: Server-Booster
+author: ceepkev77
+api: [3.0.0, 4.0.0]
+version: 1.0.0
+description: Boostersystem Kevin
+main: ceepkev77\Main
+commands:
+ booster:
+  permission: booster.command
+  description: "Server Booster aktivieren"
+permissions:
+ booster:
+  description: Allow using all Booster commands
+  default: op
+  children:
+      booster.command:
+        description: Allow using /booster
+        default: op
+      booster.version:
+        description: Allow using command /booster version
+        default: op
+      booster.feed:
+        description: Allow using command /booster feed
+        default: op
+      booster.heal:
+        description: Allow using command /booster heal
+        default: op
+      booster.fly:
+        description: Allow using command /booster fly
+        default: op
+      booster.break:
+        description: Allow using command /booster break
+        default: op

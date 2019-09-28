@@ -54,7 +54,7 @@ class Main extends PluginBase implements Listener {
     public function onEnable(): void {
         $this->getLogger()->info("Booster wurde aktiviert");
     }   
-	// bigbozzImao4035 ist ein fake dev tut nur mine plugins kopieren
+	
         
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
         switch (strtolower($command->getName())) {

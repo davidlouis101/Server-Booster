@@ -26,8 +26,8 @@ use DateTime;
 
 class Main extends PluginBase implements Listener {
 
-    public $bsek = 420;
-    public $fsek = 420;
+    public $bsek = 840;
+    public $fsek = 840;
     public $sek = 0;
     public $bba = false;
     public $fba = false;

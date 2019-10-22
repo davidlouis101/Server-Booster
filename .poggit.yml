@@ -4,4 +4,5 @@ branches:
 projects:
   Server-Booster:
     path: ""
+    Icon: ""
 ...

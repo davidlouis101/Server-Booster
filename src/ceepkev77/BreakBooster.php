@@ -21,7 +21,7 @@ class BreakBooster extends Task
         $this->plugin->bsek--;
             if($this->plugin->bsek === 30) {
                 foreach ($this->plugin->getServer()->getOnlinePlayers() as $p) {
-                         $p->sendMessage(f::RED.f::BOLD."\n\n\nDer ".f::YELLOW."Break- Booster ".f::RED."wird in 30 Sekunden deaktiviert!");
+                         $p->sendMessage(f::BLUE.f::BOLD."\n\n\nDer ".f::YELLOW."Break- Booster ".f::RED."wird in 30 Sekunden deaktiviert!");
                          }
             }elseif($this->plugin->bsek === 10) {
             foreach ($this->plugin->getServer()->getOnlinePlayers() as $p) {
